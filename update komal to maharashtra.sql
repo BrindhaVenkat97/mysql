@@ -1,0 +1,12 @@
+create database employee;
+show databases;
+create table details(id int(10),name varchar(25),age int(4),address varchar(50),salary int(7));
+insert into details values("1","Ramesh","32","Ahmedabad","2000");
+insert into details values("2","Khilan","25","Delhi","1500");
+insert into details values("3","kaushik","23","Kota","2000");
+insert into details values("4","Chaitali","25","Mumbai","6500");
+insert into details values("5","Hardik","27","Bhopal","8500");
+insert into details values("6","Komal","22","MP","4500");
+insert into details values("7","Muffy","24","Indore","10000");
+update details set name="maharashtra" where address="MP";
+select * from details;
