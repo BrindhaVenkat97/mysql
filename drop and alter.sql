@@ -1,0 +1,12 @@
+create database student;
+create database employee;
+create database production;
+show databases;
+use student;
+create table details(rollno varchar(8),name varchar(25));
+alter table details drop name;
+desc details;
+use production;
+create table fields(id varchar(9));
+alter table fields add product varchar(25);
+desc fields;
