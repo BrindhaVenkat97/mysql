@@ -1,0 +1,11 @@
+create database student;
+show databases;
+create table details(name varchar(25),rollno varchar(8),dept varchar(8),age int(3));
+insert into details values("brindha","15BEE077","EEE","21");
+insert into details values("ananthi","15BEE084","EEE","20");
+insert into details values("brindha","15BEE077","EEE","21");
+select count(*) from details;
+select distinct(name) from details;
+select distinct(rollno) from details;
+select distinct(dept) from details;
+select distinct(age) from details;
