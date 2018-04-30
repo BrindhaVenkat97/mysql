@@ -1,0 +1,11 @@
+create database student;
+show databases;
+create table details(id int(10),name varchar(25),age int(4));
+insert into details values("1","vinodini","25");
+insert into details values("2","banu","27");
+insert into details values("3","kaushik","23");
+insert into details values("4","praveen","25");
+insert into details values("5","Kamal","22");
+insert into details values("6","malini","24");
+insert into details values("7","ramesh","32");
+select * from details where age=32 or age=22;
